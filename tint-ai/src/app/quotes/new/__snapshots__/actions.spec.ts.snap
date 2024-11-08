@@ -1,0 +1,34 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Server action: createQuote > should persist a quote 1`] = `
+[
+  {
+    "createdAt": Any<Date>,
+    "deductible": 5000,
+    "id": Any<String>,
+    "limit": 20000,
+    "premium": 100,
+    "underwritingDetailsId": Any<String>,
+    "updatedAt": Any<Date>,
+  },
+]
+`;
+
+exports[`Server action: createQuote > should persist underwriting details 1`] = `
+[
+  {
+    "addressLine1": "123 Main St",
+    "addressLine2": "",
+    "city": "Springfield",
+    "createdAt": Any<Date>,
+    "email": "john.doe@example.com",
+    "firstName": "John",
+    "id": Any<String>,
+    "lastName": "Doe",
+    "numberCars": 2,
+    "state": "IL",
+    "updatedAt": Any<Date>,
+    "zip": "62701",
+  },
+]
+`;

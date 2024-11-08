@@ -1,0 +1,27 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1711297574140,
+      "tag": "0000_sharp_lockheed",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1711298454715,
+      "tag": "0001_oval_plazm",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1726432944921,
+      "tag": "0002_worried_turbo",
+      "breakpoints": true
+    }
+  ]
+}
